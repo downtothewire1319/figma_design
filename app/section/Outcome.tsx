@@ -22,7 +22,7 @@ const Outcome = () => {
                     {/* right div */}
                     <div className='flex-1'>
                         <h2 className='font-bold text-xl'>The Outcome for Participants of the Program</h2>
-                        <p className='mt-4 text-slate-600 text-lg'>As a graduate of this program, you will own valuable products such as Full-Stack App Templates, AR and VR Experiences, and APIs that are marketed globally by the Panaverse DAO. You will also have the opportunity to offer your services at a rate of $50 per hour, providing a path to financial stability while contributing to the growth of Pakistan's software exports.</p>
+                        <p className='mt-4 text-slate-600 text-lg'>As a graduate of this program, you will own valuable products such as Full-Stack App Templates, AR and VR Experiences, and APIs that are marketed globally by the Panaverse DAO. You will also have the opportunity to offer your services at a rate of $50 per hour, providing a path to financial stability while contributing to the growth of Pakistan software exports.</p>
                         <div className='grid grid-cols-2 gap-8 mt-10'>
                             {
                                 outcomeData.map((item,index)=>(
