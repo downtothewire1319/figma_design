@@ -27,7 +27,7 @@ const Outcome = () => {
                             {
                                 outcomeData.map((item,index)=>(
 
-                                    <div className='flex gap-x-4 items-center'>
+                                    <div className='flex gap-x-4 items-center' key={index}>
 
                                         <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M20.3431 5.65686C23.4673 2.53266 28.5327 2.53266 31.6569 5.65685L46.3431 20.3431C49.4673 23.4673 49.4673 28.5327 46.3431 31.6569L31.6569 46.3431C28.5327 49.4673 23.4673 49.4673 20.3431 46.3431L5.65686 31.6569C2.53266 28.5327 2.53266 23.4673 5.65685 20.3431L20.3431 5.65686Z" fill="url(#paint0_radial_1_48)" />

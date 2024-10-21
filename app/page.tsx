@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./section/Hero";
 import CoreTracks from "./section/CoreTracks";
 import SpecializedTracks from "./section/SpecializedTracks";

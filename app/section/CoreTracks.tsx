@@ -48,6 +48,7 @@ const CoreTracks = () => {
 
                     {coretracks.map((item,index)=>(
                         <CoreTracksBox
+                        key={index}
                             title={item.header}
                             paragraph={item.description}
                             num={item.number}
